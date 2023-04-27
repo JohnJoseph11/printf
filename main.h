@@ -48,9 +48,9 @@ typedef struct converter_s
 } converter_t;
 
 /**
- * struct flag_s - A new type defining a flags struct.
+ * struct flag_s - A new type to define a flags struct.
  * @flag: A character representing a flag.
- * @value: The integer value of the flag.
+ * @value: An integer value of the flag.
  */
 typedef struct flag_s
 {

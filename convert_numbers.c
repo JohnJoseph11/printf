@@ -10,14 +10,14 @@ unsigned int convert_o(va_list args, buffer_t *output,
 		unsigned char flags, int wid, int prec, unsigned char len);
 
 /**
- * convert_di - Converts an argument to a signed int and
- *              stores it to a buffer contained in a struct.
- * @args: A va_list pointing to the argument to be converted.
+ * convert_di - Converts argument to a signed int and
+ *              stores it in a buffer containing a struct.
+ * @args: A va_list connecting to the argument to be converted.
  * @flags: Flag modifiers.
  * @wid: A width modifier.
  * @prec: A precision modifier.
  * @len: A length modifier.
- * @output: A buffer_t struct containing a character array.
+ * @output: A buffer_t struct having a character array.
  *
  * Return: The number of bytes stored to the buffer.
  */
@@ -82,16 +82,16 @@ unsigned int convert_di(va_list args, buffer_t *output,
 }
 
 /**
- * convert_b - Converts an unsigned int argument to binary
- *             and stores it to a buffer contained in a struct.
- * @args: A va_list pointing to the argument to be converted.
+ * convert_b - Converts unsigned int argument to binary
+ *             and store in a buffer contained in a struct.
+ * @args: A va_list pointing to an argument to be converted.
  * @flags: Flag modifiers.
  * @wid: A width modifier.
  * @prec: A precision modifier.
  * @len: A length modifier.
- * @output: A buffer_t struct containing a character array.
+ * @output: A buffer_t struct having a character array.
  *
- * Return: The number of bytes stored to the buffer.
+ * Return: Number of bytes stored to the buffer.
  */
 unsigned int convert_b(va_list args, buffer_t *output,
 		unsigned char flags, int wid, int prec, unsigned char len)
@@ -106,16 +106,16 @@ unsigned int convert_b(va_list args, buffer_t *output,
 }
 
 /**
- * convert_o - Converts an unsigned int to octal and
- *             stores it to a buffer contained in a struct.
- * @args: A va_list poinitng to the argument to be converted.
+ * convert_o - Converts unsigned int to octal and
+ *             stores in a buffer containing a struct.
+ * @args: A va_list directed to the argument to be converted.
  * @flags: Flag modifiers.
  * @wid: A width modifier.
  * @prec: A precision modifier.
  * @len: A length modifier.
- * @output: A buffer_t struct containing a character array.
+ * @output: A buffer_t struct having a character array.
  *
- * Return: The number of bytes stored to the buffer.
+ * Return: Number of bytes stored to the buffer.
  */
 unsigned int convert_o(va_list args, buffer_t *output,
 		unsigned char flags, int wid, int prec, unsigned char len)
@@ -144,16 +144,16 @@ unsigned int convert_o(va_list args, buffer_t *output,
 }
 
 /**
- * convert_u - Converts an unsigned int argument to decimal and
- *               stores it to a buffer contained in a struct.
- * @args: A va_list pointing to the argument to be converted.
+ * convert_u - Converts unsigned int argument to decimal and
+ *               stores into a buffer containing a struct.
+ * @args: A va_list pointing to argument to be converted.
  * @flags: Flag modifiers.
  * @wid: A width modifier.
  * @prec: A precision modifier.
  * @len: A length modifier.
- * @output: A buffer_t struct containing a character array.
+ * @output: A buffer_t struct which has a character array.
  *
- * Return: The number of bytes stored to the buffer.
+ * Return: Number of bytes that is stored to the buffer.
  */
 unsigned int convert_u(va_list args, buffer_t *output,
 		unsigned char flags, int wid, int prec, unsigned char len)
